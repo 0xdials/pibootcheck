@@ -70,7 +70,7 @@ if everything’s green, congrats your Pi isn’t running some secret firmware
 
 ## safety notes
 
-- everything is read-only; imaging uses `dd if=…`, mounts are read-only loops.
+- everything is read-only, imaging uses `dd if=…`, mounts are read-only loops.
 - nothing writes back to the card.
 - requires `sudo` for the imaging part because linux is picky about block devices.
 - not a platform security researcher, feel free to tell me everything i did wrong
